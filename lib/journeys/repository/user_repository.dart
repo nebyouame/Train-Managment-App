@@ -1,6 +1,6 @@
 import 'dart:async';
 import 'package:uuid/uuid.dart';
-import 'models/user.dart';
+import 'package:finall/journeys/models/user.dart';
 
 class UserRepository {
   User _user;

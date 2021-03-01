@@ -12,8 +12,6 @@ void main() {
   final JourneyRepository journeyRepository = JourneyRepository(
     dataProvider: JourneyDataProvider(
       httpClient: http.Client(),
-
-
     ),
   );
 
